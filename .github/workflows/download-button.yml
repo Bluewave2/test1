@@ -21,9 +21,9 @@ jobs:
 
       - name: Readme Download Button Action
         env:
-          GITHUB_USER: "DenverCoder1"
-          REPO: "readme-download-button-action"
-          FORMAT: "zip"
+          GITHUB_USER: "Bluewave2"
+          REPO: "test1"
+          FORMAT: ".txt"
           VERSION: "${{ steps.get-latest-release.outputs.tag_name }}"
           COLOR: "blue"
           BEGIN_TAG: "\n\n<!-- BEGIN LATEST DOWNLOAD BUTTON -->"
