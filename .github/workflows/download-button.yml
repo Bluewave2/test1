@@ -26,7 +26,7 @@ jobs:
           FORMAT: ".txt"
           VERSION: "${{ steps.get-latest-release.outputs.tag_name }}"
           COLOR: "blue"
-          BEGIN_TAG: "\n\n<!-- BEGIN LATEST DOWNLOAD BUTTON -->"
+          BEGIN_TAG: "\n<!-- BEGIN LATEST DOWNLOAD BUTTON -->"
           END_TAG: "<!-- END LATEST DOWNLOAD BUTTON -->"
         run: |
           echo "Updating README.md"
